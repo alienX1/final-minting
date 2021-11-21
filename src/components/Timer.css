@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 100%;
+    color: aliceblue;
+    font-family: 'Titillium Web', sans-serif;
+}
+.Timer_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding: 7em 0;
+}
+.Timer_item{
+    display: flex;
+    margin-left: 22px;
+}
+.Timer_heading{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Timer_item section {
+    padding: 0 11px;
+    display: flex;
+}
+.Timer_item section p{
+    margin-right: 7px;
+}
+
+@media screen and (max-width: 820px) {
+    .Timer_content{
+        display: flex;
+        flex-direction: column;
+    }
+}

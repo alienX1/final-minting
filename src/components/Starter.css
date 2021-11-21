@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Starter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.Starter_vedio{
+    display: none;
+}
+.Starter_text{
+    padding: 11px 85px;
+
+}
+.Stater_header{
+    font-family: 'Poppins,Roboto', sans-serif;
+    font-size: 5rem;
+    margin-bottom: 22px;
+    text-align: center;
+}
+.Starter_text p{
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+}
+.Starter_images {
+    position: relative;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-align-items: flex-end;
+    -moz-box-align: end;
+    align-items: flex-end;
+    max-width: 55rem;
+}
+.Starter_images img{
+    object-fit: contain;
+    height: 95vh;
+    padding: 22px 68px;
+}
+
+.Starter_navigator{
+    display: flex;
+    margin-top: 33px;
+}
+.Starter_navigator button{
+    background: rgb(243, 94, 176);
+    display: flex;
+    align-items: center;
+    padding: 17px 40px;
+    border: none;
+    outline: none;
+}
+.Starter_navigator button:hover{
+    opacity: 0.6;
+}
+.Starter_navigator button img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: cyan;
+    margin-right: 18px;
+}
+.Starter_navigator button h4{
+    font-weight: 800;
+}
+
+.mint_stat{
+    margin-left: 22px;
+    display: flex;
+    align-items: center;
+    padding: 0 11px;
+}
+.mint_stat p{
+    font-size: 0.8rem;
+    font-family: sans-serif;
+}
+.Starter_image{
+    height: 30px;
+    width: 30px;
+    border: 3px solid cyan;
+    border-radius: 50%;
+    margin-right: 11px;
+}
+
+@media screen and (max-width: 1000px) {
+    .Starter_images{
+        display: none;
+    }
+    .Starter_vedio{
+        display: block;
+        padding: 6px;
+        border: 5px solid purple;
+    }
+    .blink {
+        animation: blink 1s steps(1, end) infinite;
+      }
+      
+      @keyframes blink {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    .Starter_vedio img{
+        border: 5px solid pink;
+        width: 100%;
+    }
+    .Starter{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.About{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px;
+}
+.About_heading{
+    font-size: 5rem;
+    font-weight: 900;
+    margin-bottom: 60px;
+}
+.About p{
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    line-height: 31px;
+    width: 70%;
+}
+
+.About_buttons{
+    display: flex;
+    margin-top: 33px;
+}
+.About_buttons button{
+    background: #a965cb;
+    border-radius: 7px;
+    padding: 10px 35px;
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+    border: none;
+    outline: none;
+}
+.About_buttons button:hover{
+    opacity: 0.6;
+}
+.About_buttons button p{
+    margin: 11px;
+    
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.About_buttons button img{
+    height: 30px;
+}
+/* Remove .img after putting oversea image  */
+.img{
+    height: 33px;
+    width: 33px;
+    border: 3px solid cyan;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 720px) {
+    .About_buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .About_buttons button{
+        margin-bottom: 12px;
+        padding: 2px 25px;
+    }
+
+}

@@ -1,0 +1,133 @@
+.Teams{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0;
+}
+.Team_heading{
+    font-size: 4rem;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.Ceo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Team_ceo{
+    background: linear-gradient(to right, rgb(235, 114, 135), purple);
+    width: 205px;
+    height: 205px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Team_ceo img{
+    height: 200px;
+    border-radius: 50%;
+    border: 7px solid black;
+}
+
+.Ceo_detail{
+    margin-top: 25px;
+    text-align: center;
+}
+.crown{
+    margin: 22px 0;
+    height: 29px;
+    width: 44px;
+}
+.Ceo_tag{
+    font-weight: bold;
+    padding-bottom: 0px;
+    font-size: 2rem;
+}
+.Ceo_detail p{
+    font-weight: bold;
+    color: gray;
+}
+
+.Ceo_social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Ceo_social img{
+    height: 28px;
+    width: 28px;
+    margin-right: 11px;
+}
+
+
+/* EMPLOYEE */
+.Team_member{
+    display: flex;
+    margin-top: 44px;
+    justify-content: space-between;
+}
+.team_one,
+.team_two{
+    display: flex;
+}
+.Team_member_list{
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+}
+.Team_employee{
+    background: linear-gradient(to right, rgb(164, 255, 128), purple);
+    width: 205px;
+    height: 205px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Team_employee img{
+    height: 200px;
+    border-radius: 50%;
+    border: 7px solid black;
+}
+
+.Employee_detail{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.Employee_name{
+    font-weight: bold;
+    padding-bottom: 0px;
+    font-size: 2rem;
+}
+.Employee_detail p{
+    font-weight: bold;
+    color: gray;
+}
+
+.Employee_social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Employee_social img{
+    height: 28px;
+    width: 28px;
+    margin-right: 11px;
+}
+
+@media screen and (max-width: 960px) {
+    .team_one,
+    .team_two{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 490px){
+    .Team_member{
+        display: flex;
+        flex-direction: column;
+    }
+}
