@@ -12,7 +12,7 @@
   z-index: -1;
 }
 .navbar{
-  background: linear-gradient(#F6BED7, rgb(87, 64, 67));
+  background: linear-gradient(to right, #F6BED9, rgb(87, 64, 67));
 }
 .navbar img, svg{
   margin-left: 12px;
@@ -51,6 +51,10 @@
   }
   .navbar a{
     text-align: center;
+  }
+  .navbar img, svg{
+    margin: 0px;
+    padding: 0;
   }
 }
 
