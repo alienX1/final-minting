@@ -3,7 +3,7 @@ import './Starter.css';
 
 function Starter() {
     return (
-        <div className='Starter'>
+        <div id='mint' className='Starter'>
 
             {/* Insert Vedio Here by replacing image  */}
             <div className="Starter_vedio">

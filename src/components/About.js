@@ -3,7 +3,7 @@ import './About.css';
 
 function About() {
     return (
-        <div className='About'>
+        <div id='about' className='About'>
             <p className='About_heading'>About</p>
             <p>The Crypto.Chicks is the 2nd generation of the Crypto.Chick
                 1/1 which was the first female avatar collection published
