@@ -18,13 +18,13 @@ function App() {
         <Navbar bg="dark" variant="dark" margin="22px 33px"
           fixed="top" expand="sm" collapseOnSelect>
           <Navbar.Brand>
-            <img src={'/images/logo.png'} width="40px" height="40px" />
+            <img src={'/images/logo.jpg'} height='80px' />
           </Navbar.Brand>
 
           <Navbar.Toggle className="coloring" />
           <Navbar.Collapse>
-            <Nav>
-              <Nav.Link active='active' href="/">Home</Nav.Link>
+            <Nav className='NavList'>
+              <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#faq">FAQ</Nav.Link>
               <Nav.Link href="#roadmap">Roadmap</Nav.Link>
