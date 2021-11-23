@@ -38,12 +38,13 @@
     -webkit-align-items: flex-end;
     -moz-box-align: end;
     align-items: flex-end;
-    max-width: 37rem;
+    max-width: 40rem;
 }
 .Starter_images img{
     object-fit: contain;
-    height: 95vh;
+    height: 85vh;
     padding: 22px 68px;
+    margin-right: -80px;
 }
 
 .Starter_navigator{
