@@ -30,7 +30,7 @@
 #HOVE{
   color: #fff;
   font-weight: 300;
-  margin: 0 5px;
+  font-size: 0.8rem;
 }
 #HOVE:hover{
   color: pink;
