@@ -7,16 +7,19 @@
 .App{
   width: 100%;
   height: 100%;
-  background: hsl(0, 0%, 9%);
+  background: #181818;
   overflow: hidden;
   z-index: -1;
 }
-.navbar{
-  background: linear-gradient(to right, #F6BED9, rgb(87, 64, 67));
+#glass{
+  background: rgba(10, 10, 10, 0.2);
+  backdrop-filter: blur(50px);
+  padding: 0;
 }
 .navbar img, svg{
   margin-left: 12px;
 }
+  
 .NavList{
   margin: auto;
   width: 50%;
@@ -44,6 +47,7 @@
   .connect{
     position: absolute;
     left: 50%;
+    background: transparent;
   }
   .NavList{
     margin: auto;

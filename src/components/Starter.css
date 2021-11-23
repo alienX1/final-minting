@@ -93,26 +93,12 @@
     .Starter_vedio{
         display: block;
         padding: 6px;
-        border: 5px solid purple;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-    .blink {
-        animation: blink 1s steps(1, end) infinite;
-      }
-      
-      @keyframes blink {
-        0% {
-          opacity: 1;
-        }
-        50% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
-      }
     .Starter_vedio img{
-        border: 5px solid pink;
-        width: 100%;
+        width: 90%;
     }
     .Starter{
         display: flex;

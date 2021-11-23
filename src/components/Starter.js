@@ -1,7 +1,12 @@
 import React from 'react';
 import './Starter.css';
+import VideoLooper from 'react-video-looper';
+import girl from './Vedio/girl.mp4';
 
 function Starter() {
+
+    const videoSrc = girl;
+
     return (
         <div id='mint' className='Starter'>
 
