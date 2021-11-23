@@ -1,11 +1,11 @@
 import React from 'react';
 import About from './About';
-import Curasol from './Curasol';
 import Roadmap from './Roadmap';
 import Starter from './Starter';
 import Teams from './Teams';
 import Timer from './Timer';
 import FAQ from './FAQ';
+import CurasolMulti from './CurasolMulti';
 
 function Home() {
     return (
@@ -16,7 +16,7 @@ function Home() {
             <hr />
             <About />
             <hr />
-            <Curasol />
+            <CurasolMulti/>
             <hr />
             <Roadmap />
             <hr />

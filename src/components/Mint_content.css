@@ -1,7 +1,8 @@
 #mintPage{
-    height: 77.5vh;
+    height: 100%;
     /* z-index: 10; */
 }
 .mint_content{
     margin-top: 15vh;
+    height: 60vh;
 }

@@ -18,15 +18,18 @@ function Starter() {
                     nesciunt eius quasi, minima cumque facilis?</p>
 
                 <div className='Starter_navigator'>
-                    <button>
+                    <button className="Mint_btn">
                         <div className="Starter_image"></div>
                         <h4>OPENSEA</h4>
                     </button>
-                    <div className="mint_stat">
-                        {/* insert image you want in src */}
+                    {/* <div className="mint_stat">
                         <img src="/images/pic.jpg" alt="" />
                         <p>MINT COUNT 1000/1000</p>
-                    </div>
+                    </div> */}
+                    <button className="mint_stat">
+                        <img src="/images/pic.jpg" alt="" />
+                        <p>MINT COUNT 1000/1000</p>
+                    </button>
                 </div>
             </div>
 
