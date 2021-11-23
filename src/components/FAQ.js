@@ -83,7 +83,7 @@ const FAQ = () => {
               <hr/>
                 <Wrap onClick={() => toggle(index)} key={index}>
                   <h1>{item.question}</h1>
-                  <span>{clicked === index ? <FiMinus /> : <FiPlus />}</span>
+                  <span >{clicked === index ? <FiMinus /> : <FiPlus />}</span>
                 </Wrap>
                 {clicked === index ? (
                   <Dropdown>
