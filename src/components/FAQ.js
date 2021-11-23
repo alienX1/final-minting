@@ -29,8 +29,7 @@ const Wrap = styled.div`
   text-align: center;
   cursor: pointer;
   h1 {
-    padding: 0.5rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: #fff;
   }
   span {
@@ -48,7 +47,7 @@ const Dropdown = styled.div`
   justify-content: center;
   align-items: center;
   p {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 `;
 
@@ -68,7 +67,8 @@ const FAQ = () => {
     <IconContext.Provider value={{ color: '#00FFB9', size: '25px' }}>
       <b style={{
         fontSize:'3rem',
-        marginTop:'30px'
+        display:'flex',
+        justifyContent:'center'
       }} id='faq'>FAQ</b>
       <AccordionSection >
         

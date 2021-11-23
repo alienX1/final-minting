@@ -24,6 +24,7 @@
   margin: auto;
   width: 50%;
 }
+
 .navbar-brand{
   margin: 0;
   padding: 0;
@@ -35,7 +36,7 @@
 
 .connect{
   top: 27px;
-  background: gray;
+  background: #383434;
   font-weight: bold;
   padding: 11px 19px;
   margin-right: 22px;
