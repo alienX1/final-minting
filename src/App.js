@@ -19,7 +19,7 @@ function App() {
           <Navbar id="glass" variant="dark"
             fixed="top" expand="sm" collapseOnSelect>
             <Navbar.Brand>
-              <img src={'/images/logo.jpg'} height='80px' />
+              <img src={'/images/logo.jpg'} height='80px' margin-left='40px' />
             </Navbar.Brand>
             <Navbar.Toggle className="coloring" />
             <Navbar.Collapse>
@@ -51,6 +51,8 @@ function App() {
         <Roadmap />
         <hr />
         <FAQ />
+
+        <hr />
         <Teams />
         <hr />
 

@@ -17,7 +17,7 @@
   padding: 0;
 }
 .navbar img, svg{
-  margin-left: 12px;
+  margin-left: 60px;
 }
 #HOVER{
   color: #fff;
@@ -54,7 +54,7 @@
   background: #383434;
   font-weight: bold;
   padding: 11px 19px;
-  margin-right: 22px;
+  margin-right: 50px;
 }
 .connect:hover{
   opacity: 0.7;

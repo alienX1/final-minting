@@ -13,20 +13,24 @@
     display: none;
 }
 .Starter_text{
-    padding: 11px 85px;
+    padding: 11px 60px;
 
 }
 .Stater_header{
     font-family: 'Poppins,Roboto', sans-serif;
     font-size: 5rem;
     margin-bottom: 22px;
-    text-align: center;
+    /* text-align: center; */
 }
 .Starter_text p{
     font-weight: 600;
     font-family: 'Poppins',sans-serif;
 }
+#text{
+    color: #B9B9B9;
+}
 .Starter_images {
+    line-height: 16px;
     position: relative;
     display: -webkit-flex;
     display: -moz-box;
@@ -34,7 +38,7 @@
     -webkit-align-items: flex-end;
     -moz-box-align: end;
     align-items: flex-end;
-    max-width: 55rem;
+    max-width: 37rem;
 }
 .Starter_images img{
     object-fit: contain;
@@ -65,18 +69,28 @@
     margin-right: 18px;
 }
 .Starter_navigator button h4{
-    font-weight: 800;
+    font-weight: 900;
+    margin-top: 11px;
+    font-size: 1rem;
 }
 
 .mint_stat{
     margin-left: 22px;
     display: flex;
     align-items: center;
-    padding: 0 11px;
+}
+.mint_stat img{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgb(243, 94, 176);
+    padding: 2px;
 }
 .mint_stat p{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-family: sans-serif;
+    margin: 12px;
+    color: #B9B9B9;
 }
 .Starter_image{
     height: 30px;

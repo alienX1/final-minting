@@ -11,7 +11,7 @@ const AccordionSection = styled.div`
   position: relative;
   height: 100%;
   width: 60%;
-  margin: auto;
+  margin: 50px auto;
   @media screen and (max-width: 574px){
     width:95%;
   }
@@ -40,7 +40,7 @@ const Wrap = styled.div`
     color: #fff;
   }
   span {
-    margin-right: -1.5rem;
+    margin-right: -1rem;
   }
 `;
 

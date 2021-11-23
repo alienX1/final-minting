@@ -12,13 +12,13 @@ function Starter() {
 
             {/* Insert Vedio Here by replacing image  */}
             <div className="Starter_vedio">
-                <img src="/images/girl2.jpg" alt="" />
+                <img src="https://www.cryptochicks.app/images/prefaceMain/chicks.gif" alt="" />
             </div>
 
             <div className="Starter_text">
                 <p className='Stater_header'>Sold Out</p>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
+                <p id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
                     quaerat excepturi, perspiciatis officiis non maxime esse deserunt
                     asperiores modi distinctio harum totam magni. Voluptatum
                     nesciunt eius quasi, minima cumque facilis?</p>
@@ -30,15 +30,15 @@ function Starter() {
                     </button>
                     <div className="mint_stat">
                         {/* insert image you want in src */}
-                        <div className="Starter_image"></div>
-                        <p>MINT COUNT 10000/10000</p>
+                        <img src="/images/pic.jpg" alt="" />
+                        <p>MINT COUNT 1000/1000</p>
                     </div>
                 </div>
             </div>
 
             {/* Insert Vedio Here by replacing image  */}
             <div className="Starter_images">
-                <img src="/images/girl2.jpg" alt="" />
+                <img src="https://www.cryptochicks.app/images/prefaceMain/chicks.gif" alt="" />
             </div>
         </div>
     )
