@@ -1,0 +1,10 @@
+#mint_page{
+    height: 77.5vh;
+    display: flex;
+    align-items: center;
+}
+#mint_page p{
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 30px;
+}

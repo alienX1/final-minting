@@ -79,6 +79,11 @@
     margin-left: 22px;
     display: flex;
     align-items: center;
+    background: purple;
+    padding: 0 8px;
+}
+.mint_stat:hover{
+    opacity: 0.6;
 }
 .mint_stat img{
     border-radius: 50%;

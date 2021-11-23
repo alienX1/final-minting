@@ -27,6 +27,14 @@
 #HOVER:hover{
   color: pink;
 }
+#HOVER a{
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+}
+#HOVER a:hover{
+  color: pink;
+}
 #HOVE{
   color: #fff;
   font-weight: 300;
