@@ -42,7 +42,7 @@
 }
 .Starter_images img{
     object-fit: contain;
-    height: 85vh;
+    height: 75vh;
     padding: 22px 68px;
     margin-right: -80px;
 }
