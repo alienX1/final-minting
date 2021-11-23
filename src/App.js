@@ -51,7 +51,6 @@ function App() {
         <Roadmap />
         <hr />
         <FAQ />
-        <hr />
         <Teams />
         <hr />
 

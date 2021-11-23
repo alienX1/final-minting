@@ -10,7 +10,11 @@ const AccordionSection = styled.div`
   align-items: center;
   position: relative;
   height: 100%;
-  width: 100%;
+  width: 60%;
+  margin: auto;
+  @media screen and (max-width: 574px){
+    width:95%;
+  }
 `;
 
 const Container = styled.div`
@@ -31,13 +35,13 @@ const Wrap = styled.div`
   padding: 0;
   margin: 0;
   h1 {
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     font-weight:900;
     color: #fff;
   }
-  // span {
-  //   // margin-right: 1.5rem;
-  // }
+  span {
+    margin-right: -1.5rem;
+  }
 `;
 
 const Dropdown = styled.div`
@@ -80,7 +84,7 @@ const FAQ = () => {
           {Data.map((item, index) => {
             return (
               <>
-              <hr/>
+              
                 <Wrap onClick={() => toggle(index)} key={index}>
                   <h1>{item.question}</h1>
                   <span >{clicked === index ? <FiMinus /> : <FiPlus />}</span>
@@ -91,6 +95,7 @@ const FAQ = () => {
                   </Dropdown>
                 ) : null}
                 
+                <hr/>
               </>
             );
           })}
