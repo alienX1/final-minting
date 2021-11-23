@@ -28,26 +28,30 @@ const Wrap = styled.div`
   margin: 70px auto
   text-align: center;
   cursor: pointer;
+  padding: 0;
+  margin: 0;
   h1 {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    font-weight:900;
     color: #fff;
   }
-  span {
-    margin-right: 1.5rem;
-  }
+  // span {
+  //   // margin-right: 1.5rem;
+  // }
 `;
 
 const Dropdown = styled.div`
   background: transparent;
   color: ##bdbfbf;
-  width: 97%;
+  width: 100%;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+    font-weight:900;
   }
 `;
 
