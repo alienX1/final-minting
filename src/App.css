@@ -19,7 +19,22 @@
 .navbar img, svg{
   margin-left: 12px;
 }
-  
+#HOVER{
+  color: #fff;
+  font-weight: 300;
+  margin: 0 18px;
+}
+#HOVER:hover{
+  color: pink;
+}
+#HOVE{
+  color: #fff;
+  font-weight: 300;
+  margin: 0 5px;
+}
+#HOVE:hover{
+  color: pink;
+}
 .NavList{
   margin: auto;
   width: 50%;
