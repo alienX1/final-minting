@@ -1,10 +1,7 @@
-#mint_page{
+#mintPage{
     height: 77.5vh;
-    display: flex;
-    align-items: center;
+    /* z-index: 10; */
 }
-#mint_page p{
-    font-size: 1rem;
-    font-weight: bold;
-    line-height: 30px;
+.mint_content{
+    margin-top: 15vh;
 }
