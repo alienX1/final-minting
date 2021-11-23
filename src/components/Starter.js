@@ -1,16 +1,10 @@
 import React from 'react';
 import './Starter.css';
-import VideoLooper from 'react-video-looper';
-import girl from './Vedio/girl.mp4';
 
 function Starter() {
 
-    const videoSrc = girl;
-
     return (
         <div id='mint' className='Starter'>
-
-            {/* Insert Vedio Here by replacing image  */}
             <div className="Starter_vedio">
                 <img src="https://www.cryptochicks.app/images/prefaceMain/chicks.gif" alt="" />
             </div>
@@ -36,7 +30,6 @@ function Starter() {
                 </div>
             </div>
 
-            {/* Insert Vedio Here by replacing image  */}
             <div className="Starter_images">
                 <img src="https://www.cryptochicks.app/images/prefaceMain/chicks.gif" alt="" />
             </div>
@@ -44,4 +37,4 @@ function Starter() {
     )
 }
 
-export default Starter
+export default Starter;
