@@ -19,7 +19,7 @@ const AccordionSection = styled.div`
 
 const Container = styled.div`
   width: 100%;
-  margin: auto;
+  margin-bottom: 35px;
 `;
 
 const Wrap = styled.div`
@@ -29,11 +29,10 @@ const Wrap = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 98%;
-  margin: 70px auto
   text-align: center;
   cursor: pointer;
   padding: 0;
-  margin: 0;
+  margin: 15px 0;
   h1 {
     font-size: 1.3rem;
     font-weight:900;
@@ -54,7 +53,7 @@ const Dropdown = styled.div`
   justify-content: center;
   align-items: center;
   p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight:900;
   }
 `;
@@ -74,12 +73,13 @@ const FAQ = () => {
   return (
     <IconContext.Provider value={{ color: '#00FFB9', size: '25px' }}>
       <b style={{
+        marginTop:'80px',
         fontSize:'3rem',
         display:'flex',
         justifyContent:'center'
       }} id='faq'>FAQ</b>
+      
       <AccordionSection >
-        
         <Container>
           {Data.map((item, index) => {
             return (

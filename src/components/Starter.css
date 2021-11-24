@@ -5,16 +5,12 @@
 }
 .Starter{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 100px;
 }
 .Starter_vedio{
     display: none;
-}
-.Starter_text{
-    padding: 11px 60px;
-
 }
 .Stater_header{
     font-family: 'Poppins,Roboto', sans-serif;
@@ -42,26 +38,28 @@
 }
 .Starter_images img{
     object-fit: contain;
-    height: 75vh;
-    padding: 22px 68px;
+    height: 90vh;
+    padding: 25px 68px;
     margin-right: -80px;
 }
 
 .Starter_navigator{
     display: flex;
     margin-top: 33px;
+    /* justify-content: space-between; */
 }
 .Starter_navigator button{
     border: none;
     outline: none;
-    width: 170px;
-    padding: 10px 14px;
-    margin: 7px;
+    width: 210px;
+    padding: 10px 17px;
+    /* margin: 7px; */
 }
 .Mint_btn{
     background: rgb(243, 94, 176);
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .Starter_navigator button:hover{
     opacity: 0.6;
@@ -79,13 +77,11 @@
 }
 
 .mint_stat{
+    margin-left: 44px;
     display: flex;
     align-items: center;
     background: purple;
-}
-.mint_stat:hover{
-    opacity: 0.6;
-}
+} 
 .mint_stat img{
     border-radius: 50%;
     height: 30px;
@@ -94,10 +90,14 @@
     padding: 2px;
 }
 .mint_stat p{
-    font-size: 0.6rem;
+    margin: auto;
+    margin-left: 11px;
+    font-size: 0.7rem;
     font-family: sans-serif;
-    margin: 12px;
     color: #B9B9B9;
+}
+.mint_stat:hover{
+    opacity: 0.6;
 }
 .Starter_image{
     height: 30px;
@@ -119,10 +119,33 @@
         justify-content: center;
     }
     .Starter_vedio img{
-        width: 90%;
+        width: 96%;
     }
     .Starter{
         display: flex;
         flex-direction: column;
+    }
+    .Stater_header{
+        font-size: 3rem;
+        margin-bottom: 15px;
+        margin-top: 60px;
+    }
+    .Starter_navigator button{
+        border: none;
+        outline: none;
+        width: 190px;
+        padding: 3px 12px;
+        /* margin: 11px 19px; */
+    }
+    .Starter_navigator{
+        display: flex;
+        justify-content: space-between;
+    }
+    .Starter_text{
+        padding: 0;
+        width: 94%;
+    }
+    .mint_stat p{
+        margin-left: 9px;
     }
 }

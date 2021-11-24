@@ -22,10 +22,6 @@ function Starter() {
                         <div className="Starter_image"></div>
                         <h4>OPENSEA</h4>
                     </button>
-                    {/* <div className="mint_stat">
-                        <img src="/images/pic.jpg" alt="" />
-                        <p>MINT COUNT 1000/1000</p>
-                    </div> */}
                     <button className="mint_stat">
                         <img src="/images/pic.jpg" alt="" />
                         <p>MINT COUNT 1000/1000</p>

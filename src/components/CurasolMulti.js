@@ -27,7 +27,8 @@ const CurasolMulti = () => {
           fontSize: '4rem',
           fontWeight: '900',
           textAlign: 'center',
-          lineHeight: '60px'
+          lineHeight: '60px',
+          marginTop: '100px'
         }}
       >New generation of<br /> Crypto.Chicks</p>
       <p style={{ fontWeight: '800', marginBottom: '63px', textAlign: 'center', }}>Crypto.Chicks = 10K gorgeous, proud, independent, and empowered girls</p>

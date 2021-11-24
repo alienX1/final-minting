@@ -60,9 +60,20 @@
 .connect{
   top: 27px;
   background: #383434;
-  font-weight: bold;
+  font-weight: 790;
   padding: 11px 19px;
   margin-right: 50px;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+.bindi{
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background: orange;
+  margin-right: 11px;
 }
 .connect:hover{
   opacity: 0.7;

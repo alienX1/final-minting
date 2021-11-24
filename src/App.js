@@ -31,11 +31,11 @@ function App() {
               </Navbar.Collapse>
 
               <div className='connect'>
+                <div className="bindi"></div>
                 CONNECT
               </div>
             </Navbar>
           </div>
-
           <Switch>
             <Route exact path='/' component={Home}>
               <Home/>
