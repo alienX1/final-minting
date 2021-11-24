@@ -37,7 +37,9 @@ const CurasolMulti = () => {
         showDots={true}
         infinite={true}
         containerClass="container-padding-bottom"
-        responsive={responsive}
+        responsive={responsive} 
+        autoPlay={true}
+        autoPlaySpeed={1000}
       >
         <div> <img className="d-block w-100" src="/images/girl1.jpg" alt="Image One" /></div>
         <div> <img className="d-block w-100" src="/images/girl2.jpg" alt="Image Two" /></div>
