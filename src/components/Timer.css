@@ -13,11 +13,6 @@ body{
     width: 100%;
     margin: auto;
 }
-/* .Timer_content{
-    display: flex;
-    width: 100%;
-    margin: auto;
-} */
 .Timer_content{
     display: flex;
     flex-direction: column;
@@ -29,7 +24,7 @@ body{
 }
 .Timer_item{
     display: flex;
-    margin-left: 22px;
+    justify-content: center;
 }
 .Timer_heading{
     font-size: 3rem;
