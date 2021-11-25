@@ -28,7 +28,7 @@ function Mint_content() {
                 <Nav.Link id="HOVER" href="#faq"><Link to='/FAQ'>FAQ</Link></Nav.Link>
                 <Nav.Link id="HOVER" href="#roadmap"><Link to='/Roadmap'>Roadmap</Link></Nav.Link>
                 <Nav.Link id="HOVER" href="#teams"><Link to='/Teams'>Team</Link></Nav.Link>
-                <Nav.Link id="HOVER"><Link to='/' collapseOnSelect>Mint</Link></Nav.Link>
+                <Nav.Link id="HOVER"><Link to='/' collapseOnSelect>DeFi</Link></Nav.Link>
               </Nav>
             </Navbar.Collapse>
 
