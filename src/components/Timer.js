@@ -44,7 +44,7 @@ function Timer() {
     });
 
     return (
-        <div className='Timer'>
+        <div className='Timer' id='timer'>
             <div className='Timer_content'>
                 <p className='Timer_heading'>Next Minting will begin in : </p>
                 <div className='Timer_item'>

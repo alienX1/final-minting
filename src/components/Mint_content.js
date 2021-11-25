@@ -8,6 +8,7 @@ import About from './About';
 import Roadmap from './Roadmap';
 import Teams from './Teams';
 import Home from './Home';
+import Timer from './Timer';
 
 
 function Mint_content() {
@@ -28,6 +29,7 @@ function Mint_content() {
                 <Nav.Link id="HOVER" href="#faq"><Link to='/FAQ'>FAQ</Link></Nav.Link>
                 <Nav.Link id="HOVER" href="#roadmap"><Link to='/Roadmap'>Roadmap</Link></Nav.Link>
                 <Nav.Link id="HOVER" href="#teams"><Link to='/Teams'>Team</Link></Nav.Link>
+                <Nav.Link id="HOVER" href="#timer"><Link to='/Timer'>Mint</Link></Nav.Link>
                 <Nav.Link id="HOVER"><Link to='/' collapseOnSelect>DeFi</Link></Nav.Link>
               </Nav>
             </Navbar.Collapse>
@@ -53,6 +55,9 @@ function Mint_content() {
           </Route>
           <Route exact path='/Teams' component={Teams}>
             <Teams />
+          </Route>
+          <Route exact path='/Timer' component={Timer}>
+            <Timer />
           </Route>
 
           <div className='mint_content'>
@@ -138,7 +143,7 @@ function Mint_content() {
                   </div>
                 </div>
               </div>
-              
+
               <div className="div4"></div>
             </div>
           </div>

@@ -26,6 +26,7 @@ function App() {
                   <Nav.Link id="HOVER" href="#faq">FAQ</Nav.Link>
                   <Nav.Link id="HOVER" href="#roadmap">Roadmap</Nav.Link>
                   <Nav.Link id="HOVER" href="#teams">Team</Nav.Link>
+                  <Nav.Link id="HOVER" href="#timer">Mint</Nav.Link>
                   <Nav.Link id="HOVER"><Link to='/Mint_content'>DeFi</Link></Nav.Link>
                 </Nav>
               </Navbar.Collapse>
@@ -56,6 +57,7 @@ function App() {
                 <Nav.Link id="HOVE" href="#faq">FAQ</Nav.Link>
                 <Nav.Link id="HOVE" href="#roadmap">Roadmap</Nav.Link>
                 <Nav.Link id="HOVE" href="#teams">Team</Nav.Link>
+                <Nav.Link id="HOVE" href="#timer">Mint</Nav.Link>
                 <Nav.Link id="HOVE" href="#mint">DeFi</Nav.Link>
               </Nav>
             </div>
