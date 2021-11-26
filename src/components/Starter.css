@@ -151,7 +151,7 @@
         margin-left: 9px;
     }
 }
-@media screen and (min-width: 1300px){
+@media screen and (min-width: 1500){
     .Starter{
         width: 100vh;
         display: flex;
