@@ -6,9 +6,10 @@
     justify-content: center;
 }
 .Roadmap_heading{
-    font-size: 4rem;
-    font-weight: 900;
+    font-size: 5rem;
+    font-weight: 700;
     margin-bottom: 40px;
+    font-family: sans-serif;
 }
 .Roadmap_detail{
     margin: 20px 0;

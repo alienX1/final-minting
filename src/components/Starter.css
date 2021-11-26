@@ -16,6 +16,8 @@
     font-family: 'Poppins,Roboto', sans-serif;
     font-size: 5rem;
     margin-bottom: 22px;
+    font-weight: 700;
+    font-family: sans-serif;
     /* text-align: center; */
 }
 .Starter_text p{
@@ -36,6 +38,7 @@
     align-items: flex-end;
     max-width: 40rem;
 }
+
 .Starter_images img{
     object-fit: contain;
     height: 90vh;
@@ -46,7 +49,6 @@
 .Starter_navigator{
     display: flex;
     margin-top: 33px;
-    /* justify-content: space-between; */
 }
 .Starter_navigator button{
     border: none;
@@ -148,4 +150,20 @@
     .mint_stat p{
         margin-left: 9px;
     }
+}
+@media screen and (min-width: 1300px){
+    .Starter{
+        width: 100vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Starter_images {
+        width: 100%;
+        display: flex;
+        min-width: 56rem;
+    }
+     .Starter_images img{
+         width: 100%;
+         height: auto;
+     }
 }

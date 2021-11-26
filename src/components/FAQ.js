@@ -74,11 +74,18 @@ const FAQ = () => {
     <IconContext.Provider value={{ color: '#00FFB9', size: '25px' }}>
       <b style={{
         marginTop:'80px',
-        fontSize:'3rem',
         display:'flex',
-        justifyContent:'center'
+        fontSize:'5rem',
+        justifyContent:'center',
+        fontWeight: '700',
+        fontFamily: 'sans-serif'
+        
       }} id='faq'>FAQ</b>
       
+      {/* font-size: 5rem;
+    font-weight: 900;
+    margin-bottom: 60px; */}
+
       <AccordionSection >
         <Container>
           {Data.map((item, index) => {
