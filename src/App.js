@@ -53,11 +53,11 @@ function App() {
 
             <div className="Footer_navigator">
               <Nav>
-                <Nav.Link id="HOVE" href="/#about">About</Nav.Link>
-                <Nav.Link id="HOVE" href="/#faq">FAQ</Nav.Link>
-                <Nav.Link id="HOVE" href="/#roadmap">Roadmap</Nav.Link>
-                <Nav.Link id="HOVE" href="/#teams">Team</Nav.Link>
                 <Nav.Link id="HOVE" href="/#timer">Mint</Nav.Link>
+                <Nav.Link id="HOVE" href="/#about">About</Nav.Link>
+                <Nav.Link id="HOVE" href="/#roadmap">Roadmap</Nav.Link>
+                <Nav.Link id="HOVE" href="/#faq">FAQ</Nav.Link>
+                <Nav.Link id="HOVE" href="/#teams">Team</Nav.Link>
                 <Nav.Link id="HOVE" ><Link to='/Mint_content'>DeFi</Link></Nav.Link>
               </Nav>
             </div>
