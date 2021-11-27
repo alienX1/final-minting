@@ -11,6 +11,10 @@
   overflow: hidden;
   z-index: -1;
 }
+.Container{
+  width: 90%;
+  margin: auto;
+}
 #glass{
   background: rgba(10, 10, 10, 0.2);
   backdrop-filter: blur(50px);

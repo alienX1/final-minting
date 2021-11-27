@@ -12,13 +12,14 @@
     padding: 100px 0px;
 }
 .About_heading{
-    font-size: 5rem;
-    font-weight: 900;
+    font-size: 4rem;
+    font-weight: 700;
     margin-bottom: 60px;
 }
 .About p{
     text-align: center;
-    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
     line-height: 31px;
     width: 70%;
 }
@@ -49,7 +50,7 @@
 .About_buttons button img{
     height: 30px;
 }
-/* Remove .img after putting oversea image  */
+
 .img{
     height: 33px;
     width: 33px;
@@ -66,5 +67,4 @@
         margin-bottom: 12px;
         padding: 2px 25px;
     }
-
 }

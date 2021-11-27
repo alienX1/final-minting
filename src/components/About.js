@@ -19,7 +19,6 @@ function About() {
             </p>
 
             <div className="About_buttons">
-
                 <button>
                     <img src="/images/discord.png" alt="" />
                     <p>DISCORD</p>

@@ -24,13 +24,13 @@ function Mint_content() {
             <Navbar.Toggle className="coloring" />
             <Navbar.Collapse collapseOnSelect>
               <Nav className='NavList'>
-                <Nav.Link id="HOVER" href="/"><Link to='/Home'>Home</Link></Nav.Link>
-                <Nav.Link id="HOVER" href="#about"><Link to='/About'>About</Link></Nav.Link>
-                <Nav.Link id="HOVER" href="#faq"><Link to='/FAQ'>FAQ</Link></Nav.Link>
-                <Nav.Link id="HOVER" href="#roadmap"><Link to='/Roadmap'>Roadmap</Link></Nav.Link>
-                <Nav.Link id="HOVER" href="#teams"><Link to='/Teams'>Team</Link></Nav.Link>
-                <Nav.Link id="HOVER" href="#timer"><Link to='/Timer'>Mint</Link></Nav.Link>
-                <Nav.Link id="HOVER"><Link to='/' collapseOnSelect>DeFi</Link></Nav.Link>
+                <Nav.Link id="HOVER" ><Link to='/Home'>Home</Link></Nav.Link>
+                <Nav.Link id="HOVER" ><Link to='/About'>About</Link></Nav.Link>
+                <Nav.Link id="HOVER" ><Link to='/FAQ'>FAQ</Link></Nav.Link>
+                <Nav.Link id="HOVER" ><Link to='/Roadmap'>Roadmap</Link></Nav.Link>
+                <Nav.Link id="HOVER" ><Link to='/Teams'>Team</Link></Nav.Link>
+                <Nav.Link id="HOVER" ><Link to='/Timer'>Mint</Link></Nav.Link>
+                <Nav.Link id="HOVER"><Link to='/'>DeFi</Link></Nav.Link>
               </Nav>
             </Navbar.Collapse>
 

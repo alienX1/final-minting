@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <div className="container">
+        <div className="Container">
           <div className="navbar">
             <Navbar id="glass" variant="dark"
               fixed="top" expand="sm" collapseOnSelect>

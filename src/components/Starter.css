@@ -12,10 +12,15 @@
 .Starter_vedio{
     display: none;
 }
+#sh{
+    font-weight: 700;
+    font-family: 'Archivo', sans-serif;
+    font-size: 4rem;
+}
 .Stater_header{
     font-family: 'Poppins,Roboto', sans-serif;
-    font-size: 5rem;
     margin-bottom: 22px;
+    font-size: 4rem;
     font-weight: 700;
     font-family: sans-serif;
     /* text-align: center; */
@@ -27,23 +32,10 @@
 #text{
     color: #B9B9B9;
 }
-.Starter_images {
-    line-height: 16px;
-    position: relative;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: flex;
-    -webkit-align-items: flex-end;
-    -moz-box-align: end;
-    align-items: flex-end;
-    max-width: 40rem;
-}
 
 .Starter_images img{
-    object-fit: contain;
-    height: 90vh;
-    padding: 25px 68px;
-    margin-right: -80px;
+    width: 100%;
+    height: 100%;
 }
 
 .Starter_navigator{
@@ -131,13 +123,13 @@
         font-size: 3rem;
         margin-bottom: 15px;
         margin-top: 60px;
+        
     }
     .Starter_navigator button{
         border: none;
         outline: none;
         width: 190px;
         padding: 3px 12px;
-        /* margin: 11px 19px; */
     }
     .Starter_navigator{
         display: flex;
@@ -150,20 +142,4 @@
     .mint_stat p{
         margin-left: 9px;
     }
-}
-@media screen and (min-width: 1500){
-    .Starter{
-        width: 100vh;
-        display: flex;
-        justify-content: space-between;
-    }
-    .Starter_images {
-        width: 100%;
-        display: flex;
-        min-width: 56rem;
-    }
-     .Starter_images img{
-         width: 100%;
-         height: auto;
-     }
 }

@@ -75,7 +75,7 @@ const FAQ = () => {
       <b style={{
         marginTop:'80px',
         display:'flex',
-        fontSize:'5rem',
+        fontSize:'4rem',
         justifyContent:'center',
         fontWeight: '700',
         fontFamily: 'sans-serif'

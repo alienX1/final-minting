@@ -10,7 +10,7 @@ function Starter() {
             </div>
 
             <div className="Starter_text">
-                <p className='Stater_header'>Sold Out</p>
+                <p id='sh' className='Stater_header'>Sold Out</p>
 
                 <p id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
                     quaerat excepturi, perspiciatis officiis non maxime esse deserunt

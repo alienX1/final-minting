@@ -27,14 +27,16 @@ const CurasolMulti = () => {
           textAlign: 'center',
           lineHeight: '60px',
           marginTop: '100px',
-          fontSize:'5rem',
+          fontSize:'3.5rem',
           justifyContent:'center',
           fontWeight: '700',
           fontFamily: 'sans-serif',
-          lineHeight: '5rem'
+          lineHeight: '5rem',
+          
         }}
+        
       >New generation of<br /> Crypto.Chicks</p>
-      <p style={{ fontWeight: '800', marginBottom: '63px', textAlign: 'center', }}>Crypto.Chicks = 10K gorgeous, proud, independent, and empowered girls</p>
+      <p style={{ fontWeight: '600',fontFamily:'sans-serif', marginBottom: '63px', textAlign: 'center', }}>Crypto.Chicks = 10K gorgeous, proud, independent, and empowered girls</p>
 
       <Carousel
         arrows={true}
