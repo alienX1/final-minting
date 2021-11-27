@@ -2,13 +2,8 @@ import React from 'react';
 import './Mint_content.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import FAQ from './FAQ';
-import About from './About';
-import Roadmap from './Roadmap';
-import Teams from './Teams';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Home';
-import Timer from './Timer';
 
 
 function Mint_content() {
@@ -24,13 +19,13 @@ function Mint_content() {
             <Navbar.Toggle className="coloring" />
             <Navbar.Collapse collapseOnSelect>
               <Nav className='NavList'>
-                <Nav.Link id="HOVER" ><Link to='/Home'>Home</Link></Nav.Link>
-                <Nav.Link id="HOVER" ><Link to='/About'>About</Link></Nav.Link>
-                <Nav.Link id="HOVER" ><Link to='/FAQ'>FAQ</Link></Nav.Link>
-                <Nav.Link id="HOVER" ><Link to='/Roadmap'>Roadmap</Link></Nav.Link>
-                <Nav.Link id="HOVER" ><Link to='/Teams'>Team</Link></Nav.Link>
-                <Nav.Link id="HOVER" ><Link to='/Timer'>Mint</Link></Nav.Link>
-                <Nav.Link id="HOVER"><Link to='/'>DeFi</Link></Nav.Link>
+                <Nav.Link id="HOVER" href='/'>Home</Nav.Link>
+                <Nav.Link id="HOVER" href='/#about'>About</Nav.Link>
+                <Nav.Link id="HOVER" href='/#faq'>FAQ</Nav.Link>
+                <Nav.Link id="HOVER" href='/#roadmap'>Roadmap</Nav.Link>
+                <Nav.Link id="HOVER" href='/#team'>Team</Nav.Link>
+                <Nav.Link id="HOVER" href='/#timer'>Mint</Nav.Link>
+                <Nav.Link id="HOVER"href='/#mintPage'>DeFi</Nav.Link>
               </Nav>
             </Navbar.Collapse>
 
@@ -41,23 +36,8 @@ function Mint_content() {
         </div>
 
         <Switch>
-          <Route exact path='/Home' component={Home}>
+          <Route exact path='/' component={Home}>
             <Home />
-          </Route>
-          <Route exact path='/FAQ' component={FAQ}>
-            <FAQ />
-          </Route>
-          <Route exact path='/About' component={About}>
-            <About />
-          </Route>
-          <Route exact path='/Roadmap' component={Roadmap}>
-            <Roadmap />
-          </Route>
-          <Route exact path='/Teams' component={Teams}>
-            <Teams />
-          </Route>
-          <Route exact path='/Timer' component={Timer}>
-            <Timer />
           </Route>
 
           <div className='mint_content'>
