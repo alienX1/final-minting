@@ -71,44 +71,43 @@ const FAQ = () => {
   };
 
   return (
-    <IconContext.Provider value={{ color: '#00FFB9', size: '25px' }}>
-      <b style={{
-        marginTop:'80px',
-        display:'flex',
-        fontSize:'4rem',
-        justifyContent:'center',
-        fontWeight: '700',
-        fontFamily: 'sans-serif'
-        
-      }} id='faq'>FAQ</b>
-      
-      {/* font-size: 5rem;
-    font-weight: 900;
-    margin-bottom: 60px; */}
+    <div className='FAQ' id='faq' style={{
+      paddingTop: '70px'
+    }}>
+      <IconContext.Provider value={{ color: '#00FFB9', size: '25px' }}>
+        <b style={{
+          display: 'flex',
+          fontSize: '4rem',
+          justifyContent: 'center',
+          fontWeight: '700',
+          fontFamily: 'sans-serif'
 
-      <AccordionSection >
-        <Container>
-          {Data.map((item, index) => {
-            return (
-              <>
-              
-                <Wrap onClick={() => toggle(index)} key={index}>
-                  <h1>{item.question}</h1>
-                  <span >{clicked === index ? <FiMinus /> : <FiPlus />}</span>
-                </Wrap>
-                {clicked === index ? (
-                  <Dropdown>
-                    <p>{item.answer}</p>
-                  </Dropdown>
-                ) : null}
-                
-                <hr/>
-              </>
-            );
-          })}
-        </Container>
-      </AccordionSection>
-    </IconContext.Provider>
+        }}>FAQ</b>
+
+        <AccordionSection >
+          <Container>
+            {Data.map((item, index) => {
+              return (
+                <>
+
+                  <Wrap onClick={() => toggle(index)} key={index}>
+                    <h1>{item.question}</h1>
+                    <span >{clicked === index ? <FiMinus /> : <FiPlus />}</span>
+                  </Wrap>
+                  {clicked === index ? (
+                    <Dropdown>
+                      <p>{item.answer}</p>
+                    </Dropdown>
+                  ) : null}
+
+                  <hr />
+                </>
+              );
+            })}
+          </Container>
+        </AccordionSection>
+      </IconContext.Provider>
+    </div>
   );
 };
 
