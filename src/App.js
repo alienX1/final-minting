@@ -22,12 +22,12 @@ function App() {
               <Navbar.Collapse>
                 <Nav className='NavList'>
                   <Nav.Link id="HOVER" href="/">Home</Nav.Link>
-                  <Nav.Link id="HOVER" href="#about">About</Nav.Link>
-                  <Nav.Link id="HOVER" href="#faq">FAQ</Nav.Link>
-                  <Nav.Link id="HOVER" href="#roadmap">Roadmap</Nav.Link>
-                  <Nav.Link id="HOVER" href="#teams">Team</Nav.Link>
-                  <Nav.Link id="HOVER" href="#timer">Mint</Nav.Link>
-                  <Nav.Link id="HOVER"><Link to='/Mint_content'>DeFi</Link></Nav.Link>
+                  <Nav.Link id="HOVER" href="/#timer">Mint</Nav.Link>
+                  <Nav.Link id="HOVER" href="/#about">About</Nav.Link>
+                  <Nav.Link id="HOVER" href="/#roadmap">Roadmap</Nav.Link>
+                  <Nav.Link id="HOVER" href="/#faq">FAQ</Nav.Link>
+                  <Nav.Link id="HOVER" href="/#teams">Team</Nav.Link>
+                  <Nav.Link id="HOVER"><Link to='/Mint_content' collapseOnSelect>DeFi</Link></Nav.Link>
                 </Nav>
               </Navbar.Collapse>
 
@@ -39,10 +39,10 @@ function App() {
           </div>
           <Switch>
             <Route exact path='/' component={Home}>
-              <Home/>
+              <Home />
             </Route>
             <Route exact path='/Mint_content' component={Mint_content}>
-              <Mint_content/>
+              <Mint_content />
             </Route>
           </Switch>
 
@@ -53,15 +53,14 @@ function App() {
 
             <div className="Footer_navigator">
               <Nav>
-                <Nav.Link id="HOVE" href="#about">About</Nav.Link>
-                <Nav.Link id="HOVE" href="#faq">FAQ</Nav.Link>
-                <Nav.Link id="HOVE" href="#roadmap">Roadmap</Nav.Link>
-                <Nav.Link id="HOVE" href="#teams">Team</Nav.Link>
-                <Nav.Link id="HOVE" href="#timer">Mint</Nav.Link>
-                <Nav.Link id="HOVE" href="#mint">DeFi</Nav.Link>
+                <Nav.Link id="HOVE" href="/#about">About</Nav.Link>
+                <Nav.Link id="HOVE" href="/#faq">FAQ</Nav.Link>
+                <Nav.Link id="HOVE" href="/#roadmap">Roadmap</Nav.Link>
+                <Nav.Link id="HOVE" href="/#teams">Team</Nav.Link>
+                <Nav.Link id="HOVE" href="/#timer">Mint</Nav.Link>
+                <Nav.Link id="HOVE" ><Link to='/Mint_content'>DeFi</Link></Nav.Link>
               </Nav>
             </div>
-
 
             <div className="Footer_social">
               <img src="/images/twitter.png" alt="" />

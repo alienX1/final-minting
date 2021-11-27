@@ -10,30 +10,6 @@ function Mint_content() {
   return (
     <Router>
       <div className='container' id='mintPage'>
-        <div className="navbar">
-          <Navbar id="glass" variant="dark"
-            fixed="top" expand="sm" collapseOnSelect>
-            <Navbar.Brand>
-              <img src={'/images/logo.jpg'} height='80px' margin-left='40px' />
-            </Navbar.Brand>
-            <Navbar.Toggle className="coloring" />
-            <Navbar.Collapse collapseOnSelect>
-              <Nav className='NavList'>
-                <Nav.Link id="HOVER" href='/'>Home</Nav.Link>
-                <Nav.Link id="HOVER" href='/#about'>About</Nav.Link>
-                <Nav.Link id="HOVER" href='/#faq'>FAQ</Nav.Link>
-                <Nav.Link id="HOVER" href='/#roadmap'>Roadmap</Nav.Link>
-                <Nav.Link id="HOVER" href='/#team'>Team</Nav.Link>
-                <Nav.Link id="HOVER" href='/#timer'>Mint</Nav.Link>
-                <Nav.Link id="HOVER"href='/#mintPage'>DeFi</Nav.Link>
-              </Nav>
-            </Navbar.Collapse>
-
-            <div className='connect'>
-              CONNECT
-            </div>
-          </Navbar>
-        </div>
 
         <Switch>
           <Route exact path='/' component={Home}>
